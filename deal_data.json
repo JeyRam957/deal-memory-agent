@@ -1,0 +1,318 @@
+[
+  {
+    "deal_id": "DEAL-001",
+    "company": "TechNova Solutions",
+    "contact": "Rahul Sharma",
+    "role": "CTO",
+    "industry": "SaaS",
+    "deal_stage": "Negotiation",
+    "competitor": "CompetitorX",
+
+    "issues": [
+      {
+        "issue_id": "TN-ISSUE-001",
+        "title": "Data security",
+        "status": "Resolved",
+        "opened_date": "2026-08-10",
+        "resolved_date": "2026-08-20",
+        "resolution_days": 10,
+        "source": "Customer conversation",
+        "resolution_note": "Customer indicated that the security concern was becoming clearer."
+      },
+      {
+        "issue_id": "TN-ISSUE-002",
+        "title": "API integration",
+        "status": "Active",
+        "opened_date": "2026-08-18",
+        "resolved_date": null,
+        "resolution_days": null,
+        "source": "Customer conversation",
+        "resolution_note": null
+      },
+      {
+        "issue_id": "TN-ISSUE-003",
+        "title": "Integration documentation",
+        "status": "Resolved",
+        "opened_date": "2026-08-21",
+        "resolved_date": "2026-08-24",
+        "resolution_days": 3,
+        "source": "Customer conversation",
+        "resolution_note": "Documentation request was completed."
+      },
+      {
+        "issue_id": "TN-ISSUE-004",
+        "title": "Implementation effort",
+        "status": "Resolved",
+        "opened_date": "2026-08-22",
+        "resolved_date": "2026-08-29",
+        "resolution_days": 7,
+        "source": "Customer conversation",
+        "resolution_note": "Customer received additional implementation information."
+      }
+    ],
+
+    "conversations": [
+      {
+        "date": "2026-08-10",
+        "summary": "Rahul showed strong interest in the AI platform but asked about data security.",
+        "objections": [
+          "Data security"
+        ],
+        "customer_statement": "I need to understand how our customer data will be protected."
+      },
+      {
+        "date": "2026-08-18",
+        "summary": "Rahul asked whether the platform can integrate with their existing APIs.",
+        "objections": [
+          "Data security",
+          "API integration"
+        ],
+        "customer_statement": "Our existing APIs are important. Integration should not require a major rewrite."
+      },
+      {
+        "date": "2026-08-21",
+        "summary": "Rahul requested clearer integration documentation.",
+        "objections": [
+          "API integration",
+          "Integration documentation"
+        ],
+        "customer_statement": "I need clear documentation before our technical team can evaluate the integration."
+      },
+      {
+        "date": "2026-08-24",
+        "summary": "Rahul confirmed that the integration documentation was useful.",
+        "objections": [
+          "Implementation effort"
+        ],
+        "customer_statement": "The documentation helps. I still want to understand the implementation effort."
+      },
+      {
+        "date": "2026-08-27",
+        "summary": "Rahul said the security concern was becoming clearer but integration remained a concern.",
+        "objections": [
+          "API integration",
+          "Implementation effort"
+        ],
+        "customer_statement": "Security looks better now, but I still need confidence about the integration effort."
+      },
+      {
+        "date": "2026-08-29",
+        "summary": "Rahul received additional implementation information.",
+        "objections": [
+          "API integration"
+        ],
+        "customer_statement": "The implementation information is useful. I will discuss the remaining integration questions with our technical team."
+      }
+    ],
+
+    "next_action": "Demonstrate API integration and follow up on the remaining integration questions."
+  },
+
+  {
+    "deal_id": "DEAL-002",
+    "company": "GreenGrid Energy",
+    "contact": "Priya Reddy",
+    "role": "VP Engineering",
+    "industry": "Energy",
+    "deal_stage": "Discovery",
+    "competitor": "EnergyAI",
+
+    "issues": [
+      {
+        "issue_id": "GG-ISSUE-001",
+        "title": "Implementation cost",
+        "status": "Resolved",
+        "opened_date": "2026-08-12",
+        "resolved_date": "2026-08-17",
+        "resolution_days": 5,
+        "source": "Customer conversation",
+        "resolution_note": "Cost discussion was addressed during the follow-up conversation."
+      },
+      {
+        "issue_id": "GG-ISSUE-002",
+        "title": "Deployment time",
+        "status": "Active",
+        "opened_date": "2026-08-21",
+        "resolved_date": null,
+        "resolution_days": null,
+        "source": "Customer conversation",
+        "resolution_note": null
+      },
+      {
+        "issue_id": "GG-ISSUE-003",
+        "title": "Energy industry references",
+        "status": "Resolved",
+        "opened_date": "2026-08-23",
+        "resolved_date": "2026-08-27",
+        "resolution_days": 4,
+        "source": "Customer conversation",
+        "resolution_note": "Examples from similar energy companies were provided."
+      },
+      {
+        "issue_id": "GG-ISSUE-004",
+        "title": "Operational cost impact",
+        "status": "Active",
+        "opened_date": "2026-08-29",
+        "resolved_date": null,
+        "resolution_days": null,
+        "source": "Customer conversation",
+        "resolution_note": null
+      }
+    ],
+
+    "conversations": [
+      {
+        "date": "2026-08-12",
+        "summary": "Priya discussed reducing operational costs using AI.",
+        "objections": [
+          "Implementation cost"
+        ],
+        "customer_statement": "We need to understand whether the investment will reduce operational costs."
+      },
+      {
+        "date": "2026-08-17",
+        "summary": "Priya discussed the implementation cost during a follow-up.",
+        "objections": [
+          "Operational cost impact"
+        ],
+        "customer_statement": "The cost discussion is clearer now, but I need to understand the expected operational impact."
+      },
+      {
+        "date": "2026-08-21",
+        "summary": "Priya said deployment time was an important concern.",
+        "objections": [
+          "Deployment time"
+        ],
+        "customer_statement": "A long deployment would be difficult for our team."
+      },
+      {
+        "date": "2026-08-23",
+        "summary": "Priya requested examples from similar energy companies.",
+        "objections": [
+          "Deployment time",
+          "Energy industry references"
+        ],
+        "customer_statement": "I would like to see how similar energy companies handled deployment."
+      },
+      {
+        "date": "2026-08-27",
+        "summary": "Priya reviewed examples from similar energy companies.",
+        "objections": [
+          "Deployment time"
+        ],
+        "customer_statement": "The examples are useful. Deployment time is still something we need to evaluate."
+      },
+      {
+        "date": "2026-08-29",
+        "summary": "Priya returned to the expected operational cost impact.",
+        "objections": [
+          "Deployment time",
+          "Operational cost impact"
+        ],
+        "customer_statement": "Before moving forward, I want to understand the operational impact and how quickly we could deploy."
+      }
+    ],
+
+    "next_action": "Prepare a deployment timeline and quantify the expected operational cost impact."
+  },
+
+  {
+    "deal_id": "DEAL-003",
+    "company": "FinCore Bank",
+    "contact": "Arjun Mehta",
+    "role": "Head of Technology",
+    "industry": "Banking",
+    "deal_stage": "Proposal",
+    "competitor": "SecureAI",
+
+    "issues": [
+      {
+        "issue_id": "FC-ISSUE-001",
+        "title": "Compliance requirements",
+        "status": "Resolved",
+        "opened_date": "2026-08-08",
+        "resolved_date": "2026-08-15",
+        "resolution_days": 7,
+        "source": "Customer conversation",
+        "resolution_note": "Compliance documentation was shared for customer review."
+      },
+      {
+        "issue_id": "FC-ISSUE-002",
+        "title": "Audit capabilities",
+        "status": "Active",
+        "opened_date": "2026-08-19",
+        "resolved_date": null,
+        "resolution_days": null,
+        "source": "Customer conversation",
+        "resolution_note": null
+      },
+      {
+        "issue_id": "FC-ISSUE-003",
+        "title": "Banking customer references",
+        "status": "Resolved",
+        "opened_date": "2026-08-23",
+        "resolved_date": "2026-08-28",
+        "resolution_days": 5,
+        "source": "Customer conversation",
+        "resolution_note": "Banking customer references were shared."
+      },
+      {
+        "issue_id": "FC-ISSUE-004",
+        "title": "Security review",
+        "status": "Active",
+        "opened_date": "2026-08-28",
+        "resolved_date": null,
+        "resolution_days": null,
+        "source": "Customer conversation",
+        "resolution_note": null
+      }
+    ],
+
+    "conversations": [
+      {
+        "date": "2026-08-08",
+        "summary": "Arjun expressed interest but asked about compliance requirements.",
+        "objections": [
+          "Compliance requirements"
+        ],
+        "customer_statement": "Compliance is a major requirement for our organization."
+      },
+      {
+        "date": "2026-08-15",
+        "summary": "Compliance documentation was shared with Arjun.",
+        "objections": [
+          "Audit capabilities"
+        ],
+        "customer_statement": "The compliance documentation helps us understand the requirements."
+      },
+      {
+        "date": "2026-08-19",
+        "summary": "Arjun asked about audit capabilities.",
+        "objections": [
+          "Audit capabilities"
+        ],
+        "customer_statement": "We also need strong audit capabilities."
+      },
+      {
+        "date": "2026-08-23",
+        "summary": "Arjun requested references from previous banking customers.",
+        "objections": [
+          "Audit capabilities",
+          "Banking customer references"
+        ],
+        "customer_statement": "I want to know whether banking customers have successfully completed security and compliance reviews."
+      },
+      {
+        "date": "2026-08-28",
+        "summary": "Banking customer references were shared and Arjun raised a further security review question.",
+        "objections": [
+          "Audit capabilities",
+          "Security review"
+        ],
+        "customer_statement": "The references are useful. I still need to understand how the security review would work."
+      }
+    ],
+
+    "next_action": "Address the audit capability questions and follow up on the security review."
+  }
+]

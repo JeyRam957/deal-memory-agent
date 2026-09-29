@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+.idea/
+recordings/
+*.mp4
+*.mov
+*.wav
+*.mp3
